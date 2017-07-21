@@ -56,6 +56,8 @@ frarea<-function(x){
 }
 output<-frarea(fr)
 output
+
+#########  function for surface area and biomass
 biomass<-function(y){
   bio<-20000*0.00029*output*1.57/210
   return(data.frame(bio=bio))
